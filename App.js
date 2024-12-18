@@ -15,7 +15,11 @@ export default function App() {
       <Stack.Navigator>
         <Stack.Screen name='WellcomeNav' component={Home} />
         <Stack.Screen name='PhoneNumberNav' component={Contacts} />
+<<<<<<< HEAD
         <Stack.Screen name='ScreenProductos' component={Product}/>
+=======
+        <Stack.Screen name='PantallaProductos' component={Product}/>
+>>>>>>> cc6538ba80a4e270e7ae062b24620ef3caa146ee
 
 
       </Stack.Navigator>
